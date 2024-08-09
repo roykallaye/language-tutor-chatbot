@@ -57,7 +57,7 @@ const getUserInputAsync = (): Promise<string> => {
 
     let messages: Message[] = [];
 
-    let personaDetails: any = {"Lewis": "Manchester, UK", "Anna": "Rome, Italy", "Michaela": "Berlin, Germany", "Carlos": "Madrid, Spain", "Marie": "Paris, France", "진": "Seoul, Korea", "陈": "Beijing, China", "ヒロシ": "Tokyo, Japan", "Иван": "Moscow, Russia", "João": "Lisbon, Portugal", "أحمد": "Cairo, Egypt"};
+    let personaDetails: any = {"Lewis": "Manchester, UK", "Anna": "Rome, Italy", "Michaela": "Berlin, Germany", "Carlos": "Madrid, Spain", "Marie": "Paris, France",};
     ai_given_location = personaDetails[ai_given_name];
 
     let subtopicListIndex: number;

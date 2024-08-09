@@ -1,4 +1,4 @@
-# Project Name (2bfluent)
+# Project Name
 Chat functionality
 
 ## Description
